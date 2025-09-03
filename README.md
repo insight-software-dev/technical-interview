@@ -5,7 +5,7 @@ In the railway industry, lines of tracks are defined in the form of ELR mileages
 - ELR Code - is a 3-4 length string containing letters and numbers identifying Engineer's Line Reference https://en.wikipedia.org/wiki/Engineer%27s_Line_Reference
 - mileage_from and mileage_to - are float values of miles starting from any particular point
 
-Characteristics of the ELR Mileages are:
+Characteristics of ELR Mileages are:
 - Mileages can overlap on the same ELR
 - Mileages can have gaps on the same ELR
 - Mileages don't need to start from 0
@@ -20,18 +20,17 @@ Characteristics of the ELR Mileages are:
     }, ...]
 }
 ```
-- Attempt to do as much as possible using database queries.
 
 
 ## Where to start
 Within the `challenges/gaps_in_tracks` you will find the data source for the mileages. To get access to the data you can either:
 - Use Docker. Within `challenges/gaps_in_tracks` run `docker compose up -d`. This should start the MySQL server on port 3306. Details of access can be found in docker-compose.yml.
-- Use CSV file to load to other database or just load it up straight from file.
+- Use the CSV file to load the data to another database or just load it up straight from the file.
 
 ## Submission
 - Duplicate this repository into a new private GitHub repository
 - Add "jacekgdudek" as a collaborator
-- Once the excercise is complete, create a PR with changes
+- Once the excercise is complete, email us back!
 - You can use any programming language of your choice
 
 
