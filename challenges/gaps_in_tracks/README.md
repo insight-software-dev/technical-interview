@@ -23,8 +23,6 @@ Characteristics of ELR Mileages are:
     }, ...]
 }
 ```
-- Attempt to do as much as possible using database queries.
-
 
 ## Where to start
 Within the `challenges/gaps_in_tracks` you will find the data source for the mileages. To get access to the data you can either:
